@@ -22,7 +22,7 @@ public class LevelOrderTraversal {
 		tree.right = new Node(3);
 		tree.left.left = new Node(4);
 		tree.left.right = new Node(5);
-		System.out.print("Inorder Without Recusrion: ");
+		System.out.print("level Order Without Recursion: ");
 		LevelOrderTraversal preorder = new LevelOrderTraversal();
 		preorder.levelOrderTraversal(tree);
 	}
